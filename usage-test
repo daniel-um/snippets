@@ -1,0 +1,3 @@
+echo creating test file
+touch delme
+echo done (remember to delete the file called delme)
