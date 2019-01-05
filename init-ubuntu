@@ -1,3 +1,4 @@
 apt-get -y update &&
 apt-get install -y mosh tmux &&
-echo -e "\n\nsuccessfully ran the following:\n> apt-get -y update\n> apt-get install -y mosh tmux"
+echo -e "new-session\nset-window-option -g mode-mouse on\nset -g history-limit 30000" > ~/.tmux.conf &&
+echo -e "\n\nsuccessfully completed following:\n> apt-get -y update\n> apt-get install -y mosh tmux\n> # create basic ~/.tmux.conf"
