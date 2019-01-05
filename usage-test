@@ -1,4 +1,4 @@
-touch delete-me3
-&& ls
-&& wrongcommand
-&& echo test done
+touch delete-me3 &&
+ls &&
+wrongcommand &&
+echo test done
