@@ -1,1 +1,3 @@
 touch delme
+ls
+echo test done
