@@ -12,7 +12,7 @@ vim testfile
 :r <url of snippet>
 ```
 
-consider adding the following to the end of the url if making frequent changes to snippet, and caching becomes an issue:
+in bash, use unique urls if making frequent changes to snippet and caching becomes an issue:
 ```
-?any-var-name=$(date +%s)
+<url>?any-var-name=$(date +%s)
 ```
