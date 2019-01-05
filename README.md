@@ -13,6 +13,6 @@ vim testfile
 ```
 
 in bash, use unique urls if making frequent changes to snippet and caching becomes an issue:
-```
-<url>?any-var-name=$(date +%s)
+```bash
+<url of snippet>?any-var-name=$(date +%s)
 ```
