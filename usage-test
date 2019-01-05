@@ -1,3 +1,4 @@
 touch delete-me
 ls
+wrongcommand
 echo test done
