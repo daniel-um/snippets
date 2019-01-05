@@ -1,4 +1,3 @@
 apt-get -y update &&
 apt-get install -y mosh tmux &&
-clear &&
-echo -e "successfully ran the following:\napt-get -y update\napt-get install -y mosh tmux"
+echo -e "\n\nsuccessfully ran the following:\n> apt-get -y update\n> apt-get install -y mosh tmux"
