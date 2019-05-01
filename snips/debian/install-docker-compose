@@ -1,3 +1,5 @@
+# requires that docker is already installed
+# TODO: should make this into a script that checks for pre-reqs
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose &&
 sudo chmod +x /usr/local/bin/docker-compose &&
 echo -e "\n\ndocker-compose installed\nto check latest version: github.com/docker/compose/releases\nto verify install: docker-compose --version"
