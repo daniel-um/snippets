@@ -1,6 +1,0 @@
-apt-get -y update &&
-apt-get install -y mosh tmux &&
-# "mouse on" for debian/ubuntu (as opposed to mode-mouse for rhel/centos7) &&
-echo -e "new-session\nset-window-option -g mouse on\nset -g history-limit 30000" > ~/.tmux.conf &&
-# since tmux server is not yet running, no need to source-file &&
-echo -e "\n\nsuccessfully completed following:\n> apt-get -y update\n> apt-get install -y mosh tmux\n> # create basic ~/.tmux.conf"
