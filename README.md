@@ -3,7 +3,7 @@ handy snippets
 
 example 1:
 ```bash
-curl <url of snippet> | bash
+curl -L <url of snippet> | bash
 ```
   
 example 2:
